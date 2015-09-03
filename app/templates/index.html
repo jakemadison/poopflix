@@ -4,6 +4,14 @@
     <title>PoopFlix</title>
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
       <script src="../static/js/poop.js"></script>
 
       <link href="../static/css/main.css" rel="stylesheet">
@@ -15,7 +23,7 @@
           <img src="../static/img/poop.jpg">
       </div>
 
-      <h1>Poop Recommends: <span id="recommendation">{{ movie }}</span></h1>
+      <h1>Poop Recommends: <a href="{{ link }}" target="_blank"><span id="recommendation">{{ movie }}</span></a></h1>
 
 
 
