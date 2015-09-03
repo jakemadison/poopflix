@@ -3,3 +3,5 @@ body { height: 100%; margin: 0; padding: 0 }
 
 #recommendation { color: forestgreen;}
 
+.jumbotron {max-width: 700px}
+.pagename {max-width: 700px; margin-bottom: 2px}
